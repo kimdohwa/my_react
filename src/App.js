@@ -13,23 +13,27 @@ function App() {
         <div className="App">
             <h1>React Example Navigation</h1>
             <table border='1'>
-                <tr>
-                    {menuData.map((item) => (<th>{item.chapter}</th>))}
-                    {/*item 은 메뉴데이터에 들어간 챕터02(원소1번)을 지칭합니다.*/}
-                </tr>
-                <tr>
+                <thead>
+                    <tr>
+                        {menuData.map((item, index) => (<th key={index}>{item.chapter}</th>))}
+                        {/*item 은 메뉴데이터에 들어간 챕터02(원소1번)을 지칭합니다.*/}
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
                         {menuData.map((item) => (
                             <td key={item.chapter}>
                                 <ul>
-                                {item.items.map((bean)=>(
-                                    <li key={bean.path}>
-                                        <Link to={bean.path}>{bean.leabel}</Link>
-                                    </li>
-                                ))}
+                                    {item.items.map((bean) => (
+                                        <li key={bean.path}>
+                                            <Link to={bean.path}>{bean.leabel}</Link>
+                                        </li>
+                                    ))}
                                 </ul>
                             </td>
-                            ))}
-                </tr>
+                        ))}
+                    </tr>
+                </tbody>
             </table>
 
             {/*라우터모음*/}
