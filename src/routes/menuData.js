@@ -21,7 +21,19 @@ export const menuData = [
             { path: '/component_separate', leabel: '컴포넌트별 분리하기' },
             { path: '/file_separator', leabel: '파일 분리' },
             { path: '/use_props', leabel: 'props 사용하기' },
-            { path: '/array_and_table_01', leabel: '테이블 만들기 01' }
+            { path: '/array_and_table_01', leabel: '테이블 만들기 01' },
+            { path: '/array_and_table_02', leabel: '테이블 만들기 02' }
+        ]
+    },
+    {
+        chapter: 'ch04.event_handling',
+        items: [
+            { path: '/click_event', leabel: '클릭 이벤트' },
+            { path: '/change_event', leabel: '체인지 이벤트' },
+            { path: '/mouse_event', leabel: '마우스 이벤트' },
+            { path: '/key_event', leabel: '키 이벤트' },
+            { path: '/combo_change', leabel: '콤보' },
+
         ]
     },
     //여기에 4장, 5장 .. 내용을 계속 추가하면 됩니다. 

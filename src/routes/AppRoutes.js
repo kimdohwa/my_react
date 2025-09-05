@@ -19,6 +19,12 @@ import AppComponent_separate from './../components/ch03.component/component_sepa
 import AppFile_separator from './../components/ch03.component/file_separator'
 import AppUse_props from './../components/ch03.component/use_props'
 import AppMaketable_01 from './../components/ch03.component/array_and_table_01'
+import AppMaketable_02 from './../components/ch03.component/array_and_table_02'
+import AppClick_Event from './../components/ch04.event_handling/click_event'
+import AppChange_Event from './../components/ch04.event_handling/change_event'
+import AppMouse_event from './../components/ch04.event_handling/mouse_event'
+import AppKey_event from './../components/ch04.event_handling/key_event'
+import AppCombo_change from './../components/ch04.event_handling/combo_change'
 
 
 function AppRoutes() {
@@ -39,6 +45,12 @@ function AppRoutes() {
             <Route path='/file_separator' element={<AppFile_separator />} />
             <Route path='/use_props' element={<AppUse_props />} />
             <Route path='/array_and_table_01' element={<AppMaketable_01 />} />
+            <Route path='/array_and_table_02' element={<AppMaketable_02 />} />
+            <Route path='/click_event' element={<AppClick_Event />} />
+            <Route path='/change_event' element={<AppChange_Event />} />
+            <Route path='/mouse_event' element={<AppMouse_event />} />
+            <Route path='/key_event' element={<AppKey_event />} />
+            <Route path='/combo_change' element={<AppCombo_change />} />
 
         </Routes>
     );

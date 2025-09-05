@@ -7,7 +7,7 @@
 }
 
 /* img 태그의 이미지 크기를 특정 픽셀로 지정 */
-img {
+img1 {
     width: 150px;
     height: 110px;
     object-fit: cover;

@@ -87,18 +87,18 @@ function App() {
     //겨울 품목 리스트를 위한 컴포넌트
     const WinterItems = () => {
         const items = [
-            {name:'눈사람',description:'겨울철에 만드는 재미있는 친구'},
-            {name:'얼음',description:'차갑고 단단한 겨울의 상징'},
-            {name:'눈',description:'하얗게 내리는 겨울 풍경'},
-            {name:'바람',description:'차가운 겨울 바람'},
+            { name: '눈사람', description: '겨울철에 만드는 재미있는 친구' },
+            { name: '얼음', description: '차갑고 단단한 겨울의 상징' },
+            { name: '눈', description: '하얗게 내리는 겨울 풍경' },
+            { name: '바람', description: '차가운 겨울 바람' },
         ];
-        const itemList = items.map((item,index)=>(
+        const itemList = items.map((item, index) => (
             <li key={index}>
                 <strong>{item.name}</strong>
                 <p>{item.description}</p>
             </li>
         ));
-        return(
+        return (
             <ul>{itemList}</ul>
         );
     };
