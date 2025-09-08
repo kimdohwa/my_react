@@ -33,6 +33,16 @@ export const menuData = [
             { path: '/mouse_event', leabel: '마우스 이벤트' },
             { path: '/key_event', leabel: '키 이벤트' },
             { path: '/combo_change', leabel: '콤보' },
+            { path: '/submit_event', leabel: '전송 이벤트' },
+
+        ]
+    },
+    {
+        chapter: 'ch05.hooks',
+        items: [
+            { path: '/use_state', leabel: '스테이트 실습01' },
+            { path: '/useState_02', leabel: '스테이트 실습02' },
+            { path: '/useState_03', leabel: '스테이트 실습03' },
 
         ]
     },
