@@ -29,6 +29,10 @@ import AppSubmit_event from './../components/ch04.event_handling/submit_event'
 import AppUse_state from './../components/ch05.hooks/use_state'
 import AppUse_state02 from './../components/ch05.hooks/useState_02'
 import AppUse_state03 from './../components/ch05.hooks/useState_03'
+import AppUse_state04 from './../components/ch05.hooks/useState_04'
+import AppUse_effect_01 from './../components/ch05.hooks/use_effect_01'
+import AppUse_effect_02 from './../components/ch05.hooks/use_effect_02'
+import AppUse_effect_03 from './../components/ch05.hooks/use_effect_03'
 
 
 function AppRoutes() {
@@ -59,6 +63,10 @@ function AppRoutes() {
             <Route path='/use_state' element={<AppUse_state />} />
             <Route path='/useState_02' element={<AppUse_state02 />} />
             <Route path='/useState_03' element={<AppUse_state03 />} />
+            <Route path='/useState_04' element={<AppUse_state04 />} />
+            <Route path='/use_effect_01' element={<AppUse_effect_01 />} />
+            <Route path='/use_effect_02' element={<AppUse_effect_02 />} />
+            <Route path='/use_effect_03' element={<AppUse_effect_03 />} />
 
         </Routes>
     );

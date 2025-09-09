@@ -4,8 +4,7 @@ function App() {
 
     const imageSize = 120; //이미지 사이즈
 
-    //관리해야 할  상태 (state)의 갯수가 많으면 객체형식으로 정의하는 것이 유리합니다.
-    const [car, setCar] = useState({});
+    //관리해야 할  상태 (state)
 
     const [color, setColor] = useState('blue');
     const [model, setModel] = useState('avante');
@@ -66,7 +65,7 @@ function App() {
             </p>
             {/* entity는 html에서 특수 문자를 표현하는 기법으로, 규칙을 정해 놓은 문자열이 있습니다. */}
             차종 변경 : &nbsp;
-            <select id='model' value={model} onChange={ChangeTest} >
+            <select id='model' onChange={ChangeTest} >
                 <option value="avante">아반떼</option>
                 <option value="sonata">소나타</option>
                 <option value="grandeur">그랜져</option>

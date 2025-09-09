@@ -43,6 +43,10 @@ export const menuData = [
             { path: '/use_state', leabel: '스테이트 실습01' },
             { path: '/useState_02', leabel: '스테이트 실습02' },
             { path: '/useState_03', leabel: '스테이트 실습03' },
+            { path: '/useState_04', leabel: '스테이트 실습04' },
+            { path: '/use_effect_01', leabel: '유저 이펙트 실습 01' },
+            { path: '/use_effect_02', leabel: '유저 이펙트 실습 02' },
+            { path: '/use_effect_03', leabel: '유저 이펙트 실습 03' },
 
         ]
     },
