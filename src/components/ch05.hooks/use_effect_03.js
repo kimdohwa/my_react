@@ -17,6 +17,7 @@ function App() {
     useEffect(GetUrlData, []);
 
     const DataList = () => {
+        //slice 메소드는 배열 요소의 일부분을 슬라이싱합니다.
         const sliceArray = receivedData.slice(0, 10);//0이상 10미만
         const showData = sliceArray.map((item) =>
             <li key={item.id}>

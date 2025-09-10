@@ -50,5 +50,12 @@ export const menuData = [
 
         ]
     },
+    {
+        chapter: 'ch06.bootstrap',
+        items: [
+            { path: '/coffee_bread_01/main', leabel: 'IT_cafe_01' },
+            { path: '/coffee_bread_02/main', leabel: 'IT_cafe_02' },
+        ]
+    },
     //여기에 4장, 5장 .. 내용을 계속 추가하면 됩니다. 
 ];

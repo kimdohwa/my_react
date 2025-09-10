@@ -1,0 +1,32 @@
+/*별은 everything을 의미합니다.*/
+* {
+    margin: 10px;
+}
+
+/*className이라는 속성은 .기호를 사용합니다.*/
+.mytable {
+    border: 3px solid rgba(201, 170, 124, 0.425);
+    padding: 50px;
+    /*내부 여백 설정*/
+}
+
+.myleft {
+    text-align: center;
+
+}
+
+.mymiddle {
+    text-align: center;
+
+}
+
+.mydescription {
+    margin: 10px;
+    padding: 7px;
+    border: 2px dashed rgba(97, 91, 73, 0.233);
+}
+
+.myimage {
+    width: 300px;
+    height: 200px;
+}
