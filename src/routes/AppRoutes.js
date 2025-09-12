@@ -37,6 +37,7 @@ import Appcafe01 from './../components/ch06.bootstrap/coffee_bread_01/main'
 import Appcafe02 from './../components/ch06.bootstrap/coffee_bread_02/main'
 import Appcafe03 from './../components/ch06.bootstrap/coffee_bread_03/main'
 import Appcafe04 from './../components/ch06.bootstrap/coffee_bread_04/main'
+import Appcafe05 from './../components/ch06.bootstrap/coffee_bread_05/main'
 
 
 function AppRoutes() {
@@ -75,6 +76,7 @@ function AppRoutes() {
             <Route path='/coffee_bread_02/main' element={<Appcafe02 />} />
             <Route path='/coffee_bread_03/main' element={<Appcafe03 />} />
             <Route path='/coffee_bread_04/main' element={<Appcafe04 />} />
+            <Route path='/coffee_bread_05/main' element={<Appcafe05 />} />
 
         </Routes>
     );

@@ -13,7 +13,7 @@ import { useState } from "react";
     ㄴ 가짜는 읽기전용, 진짜 정보는 type='hidden'으로 처리합니다.
 ( •̀ ω •́ )✧❤️❤️❤️❤️(っ °Д °;)っ*/
 
-function App({ product, onSubmitUpdate }) {
+function App({ product, onSubmitUpdate, categories }) {
     const comment = '수정';//코드에서 반복적인 단어는 변수로 만들어 jsx문법으로 처리하세요.
 
     //넘겨진 이전 상품 정보를 관리해야 하므로, state로 값을 할당합니다.
@@ -41,6 +41,12 @@ function App({ product, onSubmitUpdate }) {
 
     }
 
+    const categoryOptions = categories.map((cate, index) =>
+        // cate는 카테고리 1개를 의미하는 변수입니다.
+        //파일 CreateCategory를 참조하여 코딩하도록 합니다.
+        <option key={index} value={cate.english}>{cate.korean}</option>
+    );
+
     return (
         <div>
             <h2>상품 {comment}</h2>
@@ -64,8 +70,8 @@ function App({ product, onSubmitUpdate }) {
                     <InputGroup.Text className="input-group-text">카테고리</InputGroup.Text>
                     <Form.Select name='category' onChange={InputChange}>
                         <option value='-'>--카테고리를 선택해주세요</option>
-                        <option value='bread' selected={formData.category === 'bread'}>빵</option>
-                        <option value='beverage' selected={formData.category === 'beverage'}>음료수</option>
+                        {categoryOptions}
+
                     </Form.Select>
                 </InputGroup>
                 <InputGroup className="custom-input-group">
