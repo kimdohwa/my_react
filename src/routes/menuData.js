@@ -58,6 +58,8 @@ export const menuData = [
             { path: '/coffee_bread_03/main', leabel: 'IT_cafe_03' },
             { path: '/coffee_bread_04/main', leabel: 'IT_cafe_04' },
             { path: '/coffee_bread_05/main', leabel: 'IT_cafe_05' },
+            { path: '/coffee_bread_06/main', leabel: 'IT_cafe_06' },
+            { path: '/coffee_bread_07/main', leabel: 'IT_cafe_07' },
         ]
     },
     //여기에 4장, 5장 .. 내용을 계속 추가하면 됩니다. 
