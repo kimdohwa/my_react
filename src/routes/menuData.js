@@ -2,6 +2,19 @@
 //export 키워드는 외부에서 참조 가능하도록 길을 틔워줌
 export const menuData = [
     {
+        chapter: "ch01. Basic",
+        items: [
+            { path: '/make_array_01', leabel: '배열 실습01' },
+            { path: '/math_object_01', leabel: 'Math 객체 실습 01' },
+            { path: '/if_exercise', leabel: 'If 구문 실습' },
+            { path: '/switch_exercise', leabel: 'Switch 구문 실습' },
+            { path: '/typeof_number', leabel: 'Typeof와 Number 실습' },
+            { path: '/form_exam', leabel: 'Form 양식 실습' },
+            { path: '/table_exam', leabel: '목록 테이블 실습' },
+        ]
+    },
+
+    {
         chapter: 'ch02. ECMAScript',
         items: [
             { path: '/let_const', leabel: 'let & const 실습' },
